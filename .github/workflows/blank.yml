@@ -1,6 +1,6 @@
 name: first-CI
-on:
- workflow_dispatch:
+on: workflow_dispatch
+ 
 jobs:
  powercell_ki_command_line:
    runs-on: first_runner
