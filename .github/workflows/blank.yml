@@ -1,0 +1,9 @@
+name:first-CI
+on:
+ workflow_dispatch:
+jobs:
+ powercell ki command line:
+   runs-on:first_runner
+   steps:
+   - run: echo hello world
+   - run:ls
